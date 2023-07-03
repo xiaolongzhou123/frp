@@ -56,7 +56,7 @@ remote_port = 7113 #这个端口虽然是你定义的，但是会开放在服务
 ```
 这里的common不要修改,windows-work这里需要修改，客户端唯一标识 
 1. windows-work改成myhome，yourhome(随便) 
-2. 3389是你本地的要开放的端口,7113这个端口会开放在server端 
+2. 8000是你本地的要开放的端口,7113这个端口会开放在server端 
 
 
 
