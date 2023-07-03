@@ -1,0 +1,12 @@
+version: '2'
+services:
+  frpc:
+    image:  snowdreamtech/frps:0.44.0
+    container_name:  frps
+    volumes:
+      - ./frp:/etc/frp/
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    restart: always
+    hostname: frps
+    network_mode: host
