@@ -1,7 +1,7 @@
 version: '2'
 services:
   frpc:
-    image: registry.cn-hangzhou.aliyuncs.com/metahubs/yskj:frps0.44.0
+    image: registry.cn-hangzhou.aliyuncs.com/metahubs/yskj:frpc
     container_name:  frpc
     volumes:
       - ./frp:/etc/frp/
