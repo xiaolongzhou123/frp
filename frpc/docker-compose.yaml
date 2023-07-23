@@ -1,7 +1,7 @@
 version: '2'
 services:
   frpc:
-    image:  snowdreamtech/frpc
+    image: registry.cn-hangzhou.aliyuncs.com/metahubs/yskj:frps0.44.0
     container_name:  frpc
     volumes:
       - ./frp:/etc/frp/
